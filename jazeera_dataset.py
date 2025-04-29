@@ -60,6 +60,6 @@ for article in articles:
 
 # 6. Save to CSV
 df = pd.DataFrame(data, columns=['Title', 'Content', 'URL', 'Date', 'Location'])
-df.to_csv('middle_east_news.csv', index=False)
+df.to_csv('datasets/middle_east_news.csv', index=False)
 
 driver.quit()
